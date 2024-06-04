@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <!-- <h1>Currency Convertor</h1> -->
+        <nav>
+            <div class="logo">Currency Convertor</div>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">Convert</a></li>
+                <li><a href="/contact">Get Range</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Choose a Currency</h1>        
+        
+        <form method="get" action="">
+
+            <label for="base-currency">Select Currency:</label>
+
+            <select name="currencies" id="base-currency">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <label for="amount">Enter Amount:</label>
+            <input type="number" name="amount" id="amount">
+
+            <button type="submit" class="btn">Exchange</button>
+        </form>
+        <div class="output">
+            <h2>Current Exchange Rates</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Will populate using js -->
+                </tbody>
+            </table>
+        </div>
+        
+
+    </div>
+
+    <footer>
+        Copyright &copy; All rights reserved
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
