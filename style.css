@@ -5,14 +5,11 @@
     padding: 0;
 }
 
-body
-{
+body{
     font-family: "Poppins", sans-serif;
     background-color: lightblue;
 }
-
-.container
-{
+.container{
     min-height: 70vh;
     margin: auto;
     /* background-color: aqua; */
@@ -33,8 +30,7 @@ body
     padding-top: 2rem;
 }
 
-.container form input[type='number'], select
-{
+.container form input[type='number'], select{
     margin-bottom: 1rem;
 }
 
@@ -47,48 +43,35 @@ select{
     border: solid 1px grey;
     cursor: pointer;
 }
-
-footer
-{
+footer{
     text-align: center;
 }
-
-header
-{
+header{
     background-color: bisque;
 }
-
-nav
-{
+nav{
     display: flex;
     font-weight: 600;
     padding: 1rem;
 }
-
-nav ul
-{
+nav ul{
     display: flex;
     /* justify-content: space-between; */
 }
-
-nav ul li
-{
+nav ul li{
     list-style: none;
     margin: 0 20px;
 }
-
 nav li a{
     text-decoration: none;
     color: black;
     transition: all;
     transition-duration: 500ms;
 }
-
 nav li a:hover{
     text-decoration: none;
     color: rgb(223, 151, 65);
 }
-
 .logo
 {
     display: flex;
@@ -96,9 +79,7 @@ nav li a:hover{
     align-items: center;
     margin: 0 23px;
 }
-
-.output
-{
+.output{
     padding: 1rem;
     visibility: hidden;
 }
